@@ -242,7 +242,7 @@ main.main .information p + p {
     margin-top: 30px;
 }
 
-/* ASIDE */
+/* LOCATION */
 
 aside.location {
     display: grid;
@@ -289,7 +289,7 @@ footer.footer p {
     }
 }
 
-/* ADVERTS */
+/* LOCATION */
 
 @media (max-width: 1200px) {
     aside.location {
@@ -393,7 +393,7 @@ footer.footer p {
     }
 }
 
-/* ADVERTS */
+/* LOCATION */
 
 @media (max-width: 650px) {
     aside.location {
