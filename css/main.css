@@ -350,17 +350,16 @@ footer.footer p {
         overflow-x: scroll;
         webkit-overflow-scrolling: touch;
         -ms-overflow-style: -ms-autohiding-scrollbar;
-        position: relative;
     }
 
     nav.sidenav::after {
         content: "→";
         font-size: 1.5em;
         color: rgba(0, 0, 0, 0.3);
-        position: absolute;
-        top: 5px;
-        right: 20px;
         animation: leftRight 0.5s ease-in infinite alternate;
+        position: absolute;
+        top: 175.14px;
+        right: 20px;
     }
 
     nav.sidenav ul {
