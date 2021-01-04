@@ -245,7 +245,8 @@ main.main .information p + p {
 /* ASIDE */
 
 aside.adverts {
-    display: grid;
+    display: grid !important;
+    visibility: visible !important;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     padding: 30px;
     gap: 20px;
