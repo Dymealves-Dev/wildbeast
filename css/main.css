@@ -244,9 +244,8 @@ main.main .information p + p {
 
 /* ASIDE */
 
-aside.adverts {
-    display: grid !important;
-    visibility: visible !important;
+aside.location {
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     padding: 30px;
     gap: 20px;
@@ -254,7 +253,7 @@ aside.adverts {
     grid-area: adverts;
 }
 
-aside.adverts h2 {
+aside.location h2 {
     font-size: 1.75em;
     color: #B07DFB;
 }
