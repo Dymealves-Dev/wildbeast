@@ -341,6 +341,10 @@ footer.footer p {
         gap: 30px;
         justify-items: center;
     }
+    
+    header.header nav ul li a {
+        font-size: 1em;
+    }
 }
 
 /* SIDENAV */
