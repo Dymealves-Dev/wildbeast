@@ -354,7 +354,7 @@ footer.footer p {
     }
 
     nav.sidenav::after {
-        content: "\1F812";
+        content: "→";
         font-size: 1.5em;
         color: rgba(0, 0, 0, 0.3);
         position: absolute;
