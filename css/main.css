@@ -244,7 +244,7 @@ main.main .information p + p {
 
 /* LOCATION */
 
-aside.location {
+section.location {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     padding: 30px;
@@ -253,7 +253,7 @@ aside.location {
     grid-area: adverts;
 }
 
-aside.location h2 {
+section.location h2 {
     font-size: 1.75em;
     color: #B07DFB;
 }
@@ -292,25 +292,25 @@ footer.footer p {
 /* LOCATION */
 
 @media (max-width: 1200px) {
-    aside.location {
+    section.location {
         grid-template-columns: 1fr 1fr;
         gap: 30px;
     }
 
-    aside.location h2 {
+    section.location h2 {
         grid-column: 1;
         grid-row: 1;
         align-self: start;
     }
 
-    aside.location p {
+    section.location p {
         grid-column: 1;
         grid-row: 1;
         font-size: 0.875em;
         align-self: end;
     }
 
-    aside.location iframe {
+    section.location iframe {
         width: 100%;
         justify-self: end;
     }
@@ -399,12 +399,12 @@ footer.footer p {
 /* LOCATION */
 
 @media (max-width: 650px) {
-    aside.location {
+    section.location {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
     }
 
-    aside.location h2 {
+    section.location h2 {
         font-size: 2em;
     }
 }
